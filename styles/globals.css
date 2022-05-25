@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@100;300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@100;300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique+B1:wght@100;300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@100;300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round:wght@100;300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  @apply scrollbar-none;
+}
+::-moz-selection {
+  background-color: lime;
+}
+
+::selection {
+  background-color: rgba(187, 187, 187, 0.2);
+}
+a {
+  @apply text-red-400 transition-colors hover:text-red-500;
+  text-decoration: underline !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#arc-widget-launcher-iframe {
+  display: none !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.1rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.hammerContainer {
+  user-select: text !important;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.emoji-small {
+  width: 32px;
+  height: 32px;
+  display: inline;
+}
+
+.emoji-large {
+  width: 72px;
+  height: 72px;
+  display: inline;
+}
+
+#__next,
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
